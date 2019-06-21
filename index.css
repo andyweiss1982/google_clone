@@ -1,0 +1,163 @@
+/* GLOBAL */
+
+@font-face {
+  font-family: 'Product Sans';
+  src: URL('Product Sans Regular.ttf') format('truetype');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0,0,0,0.8);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+/* NAVS */
+
+header, footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+header {
+  top: 0;
+}
+
+footer {
+  bottom: 0;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  padding: 15px;
+}
+
+nav ul li a {
+  font-size: 0.8rem;
+}
+
+header nav ul li a {
+  display: inline-block;
+  margin-top: 4px;
+}
+
+.left {
+  margin-right: auto;
+}
+
+.right {
+  margin-left: auto;
+}
+
+.fas{
+  font-size: 1rem;
+  cursor: pointer;
+  color: rgba(0,0,0,0.8);
+  margin-top: 4px;
+}
+
+.fas:hover {
+  color: rgba(0,0,0,1);
+}
+
+#profile{
+  width: 24px;
+  border-radius: 100%;
+  border: 2px solid #DB4437;
+  cursor: pointer;
+}
+
+/* MAIN */
+
+h1 {
+  font-family: 'Product Sans';
+  font-size: 68px;
+  font-weight: light;
+  margin: 0;
+  letter-spacing: -5px;
+  text-align: center;
+}
+
+.blue {
+  color: #4285F4;
+}
+
+.red {
+  color: #DB4437;
+}
+
+.yellow {
+  color: #F4B400;
+}
+
+.green {
+  color:  #0F9D58;
+}
+
+/* FORM */
+
+input[type=text] {
+  border-radius: 15px;
+  border: 1px solid lightgray;
+  padding: 10px 20px;;
+  width: 430px;
+  font-size: 0.8rem;
+  margin: 20px 0;
+  color: rgba(0,0,0,0.8);
+}
+
+input[type=text]:hover, input[type=text]:focus{
+  outline: none;
+  box-shadow: 0px 0px 5px 0px lightgray;
+}
+
+#buttons {
+  text-align: center;
+}
+
+button{
+  font-family: inherit;
+  padding: 0 16px;
+  font-size: 0.8rem;
+  margin: 4px 4px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  height: 36px;
+  line-height: 36px;
+}
+
+button:hover{
+  border: 1px solid lightgray;
+}

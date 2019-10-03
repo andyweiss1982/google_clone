@@ -51,6 +51,7 @@ footer {
 
 nav {
   display: flex;
+  justify-content: space-between;
 }
 
 nav ul {
@@ -59,25 +60,17 @@ nav ul {
   margin: 0;
 }
 
-nav ul li {
+nav li {
   padding: 15px;
 }
 
-nav ul li a {
+nav li a {
   font-size: 0.8rem;
 }
 
-header nav ul li a {
+header nav li a {
   display: inline-block;
   margin-top: 4px;
-}
-
-.left {
-  margin-right: auto;
-}
-
-.right {
-  margin-left: auto;
 }
 
 .fas{
@@ -102,10 +95,10 @@ header nav ul li a {
 
 h1 {
   font-family: 'Product Sans';
-  font-size: 68px;
+  font-size: 80px;
   font-weight: light;
   margin: 0;
-  letter-spacing: -5px;
+  letter-spacing: -7px;
   text-align: center;
 }
 
